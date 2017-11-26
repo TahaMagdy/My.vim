@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pyarabic'
+let g:netrw_dirhist_2='/Users/taha/.vim/bundle'
+let g:netrw_dirhist_3='/Users/taha/.vim/bundle/buffet.vim'
