@@ -33,7 +33,7 @@ set incsearch
 set ttyfast
 set t_Co=256
 set foldcolumn=0
-set timeout timeoutlen=90 " delay <3
+set timeout timeoutlen=100 " delay <3
 
 
 
@@ -42,7 +42,7 @@ set timeout timeoutlen=90 " delay <3
 """"""""""
 map <C-n> :bnext<CR>
 map <C-p> :bprev<CR>
-map bk    :bdelete<Cr> 
+map  bk    :bdelete<Cr> 
 map  nm    :noh<Cr>
 imap nm    <Esc>:noh<Cr>
 map <C-x> :TableModeToggle<CR>
@@ -50,6 +50,8 @@ map <C-c> :cd %:h<CR>
 " Buffer kill
 map s=  :set spell<Cr>
 map s-  :set nospell<Cr>
+imap s=  <Esc>:set spell<Cr>
+imap s-  <Esc>:set nospell<Cr>
 map <C-h> <C-w><
 map <C-l> <C-w>>
 map <C-j> <C-w>+
